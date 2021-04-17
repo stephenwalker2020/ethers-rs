@@ -17,7 +17,7 @@ ethabi = { package = "ethabi-next", version = "13.3.0", default-features = false
 arrayvec = { version = "0.5.1", default-features = false }
 
 # crypto
-ecdsa = { version = "0.10", default-features = false, features = ["std"] }
+ecdsa = { version = "0.10.0", default-features = false, features = ["std"] }
 elliptic-curve = { version = "0.9", default-features = false }
 generic-array = { version = "0.14.4", default-features = false }
 k256 = { version = "0.7", default-features = false, features = ["keccak256", "ecdsa"] }
