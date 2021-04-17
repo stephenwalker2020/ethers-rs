@@ -38,7 +38,7 @@ funty = "=1.1.0"
 
 # async
 tokio = { version = "1.2", default-features = false, optional = true}
-futures-util = { version = "0.3.13", default-features = false, optional = true}
+futures-util = { version = "0.3.11", default-features = false, optional = true}
 
 [dev-dependencies]
 ethers = { version = "0.2", path = "../ethers" }
